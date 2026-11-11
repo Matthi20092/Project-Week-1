@@ -1,12 +1,171 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="nl">
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="EduPortal" content="width=device-width, initial-scale=1.0">
+    <title>EduPortal - Schoolportaal</title>
+    <link rel="stylesheet" href="ouders.css">
 </head>
 
 <body>
 
-</body>
+    <!-- Navigatiebalk -->
+    <header>
+        <div class="logo">EduPortal</div>
 
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#cijfers">Cijfers</a>
+            <a href="#activiteiten">Activiteiten</a>
+            <a href="#contact">Contact</a>
+            <details class="student-profile">
+                <summary class="profile-photo" aria-label="Studentgegevens bekijken">M</summary>
+                <div class="student-menu">
+                    <h2>Studentoverzicht</h2>
+                    <p>Gemiddeld cijfer: <strong>7,4</strong></p>
+                    <p>Voortgang schooljaar: <strong>78%</strong></p>
+                    <a href="#cijfers">Bekijk de cijfers</a>
+                </div>
+            </details>
+        </nav>
+    </header>
+
+    <!-- Welkomstgedeelte -->
+    <section class="welcome" id="home">
+        <p>WELKOM BIJ HET OUDERPORTAAL</p>
+        <h1>Welkom terug</h1>
+        <h3>Volg de schoolontwikkeling en activiteiten van uw kind op één plek.</h3>
+    </section>
+
+    <!-- Hoofdinhoud -->
+    <main>
+
+        <!-- Cijfers -->
+        <section class="card" id="cijfers">
+            <h2>Cijfers van uw kind</h2>
+            <p>Bekijk hier de meest recente schoolresultaten van uw kind.</p>
+
+            <div class="grade">
+                <span>Nederlands</span>
+                <strong>7,5</strong>
+            </div>
+
+            <div class="grade">
+                <span>Engels</span>
+                <strong>8,2</strong>
+            </div>
+
+            <div class="grade">
+                <span>Programmeren</span>
+                <strong>6,8</strong>
+            </div>
+
+            <div class="grade">
+                <span>Basis ICT</span>
+                <strong>7,1</strong>
+            </div>
+
+            <div class="average">
+                Gemiddeld cijfer: 7,4
+            </div>
+        </section>
+
+        <!-- Voortgang -->
+        <section class="card">
+            <h2>Voortgang van uw kind</h2>
+            <p>Bekijk de voortgang gedurende het schooljaar.</p>
+
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <p>78% van het schooljaar is voltooid.</p>
+        </section>
+
+        <!-- Activiteiten -->
+        <section class="card" id="activiteiten">
+            <h2>Aankomende activiteiten</h2>
+
+            <div class="activity">
+                <div class="date">18<br>NOV</div>
+                <div>
+                    <h3>Ouderavond</h3>
+                    <p>19:00 - 21:00</p>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="date">25<br>NOV</div>
+                <div>
+                    <h3>Sportdag</h3>
+                    <p>09:00 - 15:00</p>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="date">02<br>DEC</div>
+                <div>
+                    <h3>Projectweek</h3>
+                    <p>De hele schooldag</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Openingstijden -->
+        <section class="card">
+            <h2>Openingstijden</h2>
+
+            <div class="opening">
+                <span>Maandag</span>
+                <strong>08:00 - 17:00</strong>
+            </div>
+
+            <div class="opening">
+                <span>Dinsdag</span>
+                <strong>08:00 - 17:00</strong>
+            </div>
+
+            <div class="opening">
+                <span>Woensdag</span>
+                <strong>08:00 - 17:00</strong>
+            </div>
+
+            <div class="opening">
+                <span>Donderdag</span>
+                <strong>08:00 - 17:00</strong>
+            </div>
+
+            <div class="opening">
+                <span>Vrijdag</span>
+                <strong>08:00 - 16:00</strong>
+            </div>
+
+            <div class="opening">
+                <span>Zaterdag en zondag</span>
+                <strong>Gesloten</strong>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="card contact" id="contact">
+            <h2>Contact met de school</h2>
+            <p>Heeft u een vraag? Neem gerust contact op met de school.</p>
+
+            <p><strong>E-mail:</strong> info@school.nl</p>
+            <p><strong>Telefoon:</strong> 024 890 4500</p>
+            <p><strong>Adres:</strong> Heyendaalseweg 98, 6525 EE Nijmegen</p>
+
+            <a href="mailto:1224609@student.roc-nijmegen.nl" class="button">
+                E-mail versturen
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>EduPortal | Samen werken aan de toekomst van uw kind.</p>
+    </footer>
+
+</body>
 </html>

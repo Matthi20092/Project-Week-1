@@ -1,0 +1,242 @@
+
+/* Algemene instellingen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #25252D;
+    color: white;
+}
+
+/* Navigatiebalk */
+header {
+    background-color: #383640;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #BBA6F5;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #BBA6F5;
+}
+
+.student-profile {
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.profile-photo {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+    background-color: #BBA6F5;
+    color: #25252D;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.student-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 260px;
+    padding: 16px;
+    background-color: #383640;
+    border-radius: 10px;
+}
+
+.student-menu h2 {
+    margin-bottom: 12px;
+    color: #BBA6F5;
+    font-size: 18px;
+}
+
+.student-menu p {
+    margin-bottom: 10px;
+    color: #C2C0CB;
+}
+
+.student-menu a {
+    display: inline-block;
+    margin-top: 4px;
+    color: #BBA6F5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Welkomstgedeelte */
+.welcome {
+    padding: 60px 8%;
+}
+
+.welcome p {
+    color: #BBA6F5;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.welcome h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.welcome h3 {
+    color: #C2C0CB;
+    font-weight: normal;
+}
+
+/* Hoofdindeling */
+main {
+    padding: 20px 8%;
+    display: grid;
+    gap: 25px;
+}
+
+/* Informatiekaarten */
+.card {
+    background-color: #383640;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card h2 {
+    color: #BBA6F5;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #C2C0CB;
+    margin-bottom: 15px;
+}
+
+/* Cijfers */
+.grade {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #55515F;
+}
+
+.grade strong {
+    color: #BBA6F5;
+}
+
+.average {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #BBA6F5;
+    color: #25252D;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Voortgangsbalk */
+.progress-bar {
+    background-color: #55515F;
+    height: 12px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.progress {
+    background-color: #BBA6F5;
+    width: 78%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Activiteiten */
+.activity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #55515F;
+}
+
+.date {
+    background-color: #BBA6F5;
+    color: #25252D;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.activity h3 {
+    margin-bottom: 5px;
+}
+
+.activity p {
+    margin: 0;
+}
+
+/* Openingstijden */
+.opening {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #55515F;
+}
+
+.opening strong {
+    color: #BBA6F5;
+}
+
+/* Contact */
+.contact {
+    grid-column: span 2;
+}
+
+.button {
+    display: inline-block;
+    background-color: #BBA6F5;
+    color: #25252D;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #D4C5FA;
+}
+
+/* Footer */
+footer {
+    background-color: #383640;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    color: #C2C0CB;
+}
