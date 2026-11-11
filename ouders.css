@@ -14,6 +14,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #25252D;
     color: white;
+    font-size: 20px;
 }
 
 /* Navigatiebalk */
@@ -26,7 +27,7 @@ header {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     color: #BBA6F5;
 }
@@ -75,7 +76,7 @@ nav a:hover {
 .student-menu h2 {
     margin-bottom: 12px;
     color: #BBA6F5;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .student-menu p {
@@ -98,12 +99,12 @@ nav a:hover {
 
 .welcome p {
     color: #BBA6F5;
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
 .welcome h1 {
-    font-size: 42px;
+    font-size: 44px;
     margin-bottom: 10px;
 }
 
