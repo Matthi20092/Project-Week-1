@@ -54,7 +54,7 @@ nav a:hover {
 
 .welcome h3,
 .info p,
-.requirements {
+.vereisten {
     color: #C2C0CB;
 }
 
@@ -78,7 +78,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-.requirements {
+.vereisten {
     padding-left: 25px;
     line-height: 1.8;
 }
@@ -88,4 +88,9 @@ footer {
     color: #C2C0CB;
     text-align: center;
     padding: 25px;
+}
+
+.aanmelden {
+    color: #BBA6F5;
+    text-decoration: none;
 }
