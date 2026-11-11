@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #25252D;
@@ -38,10 +34,6 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-}
-
-nav a:hover {
-    color: #BBA6F5;
 }
 
 main {
@@ -147,7 +139,8 @@ main {
 }
 
 /* Rooster met vier kolommen */
-.schedule-heading, .schedule-row {
+.schedule-heading,
+.schedule-row {
     display: flex;
     padding: 14px 0;
     border-bottom: 1px solid #55515F;
@@ -159,7 +152,8 @@ main {
     font-weight: bold;
 }
 
-.schedule-heading span, .schedule-row span {
+.schedule-heading strong,
+.schedule-row p {
     width: 25%;
 }
 
@@ -190,7 +184,6 @@ main {
 .status {
     border-radius: 8px;
     padding: 9px 12px;
-    white-space: nowrap;
 }
 
 .open {
@@ -202,56 +195,29 @@ main {
     color: #25252D;
 }
 
-/* Formulier voor docent */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    max-width: 650px;
-}
-
-form label {
-    font-weight: bold;
-}
-
-form select, form textarea {
-    font-family: Arial, sans-serif;
-    background-color: #25252D;
-    color: white;
-    border: 1px solid #55515F;
-    border-radius: 8px;
-    padding: 12px;
-}
-
-form textarea {
-    resize: none;
-}
-
-form button {
+/* Contact */
+.button {
+    display: inline-block;
     background-color: #BBA6F5;
     color: #25252D;
+    text-decoration: none;
     padding: 12px 20px;
-    border: none;
     border-radius: 8px;
     font-weight: bold;
-    cursor: pointer;
-    width: 190px;
+    margin-top: 10px;
 }
 
-form button:hover {
-    background-color: #D4C5FA;
-}
-
-.card .form-note {
-    margin-top: 15px;
-    font-size: 13px;
-}
-
-/* Onderkant van de website */
+/* Footer */
 footer {
     background-color: #383640;
     text-align: center;
     padding: 25px;
     margin-top: 30px;
     color: #C2C0CB;
+}
+
+/* Geen extra ruimte bij de teksten in het rooster en de cijfers */
+.grade p,
+.schedule-row p {
+    margin-bottom: 0;
 }
