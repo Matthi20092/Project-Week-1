@@ -5,9 +5,87 @@
 }
 
 body {
-    background-color: #f0f0f7;
+    font-family: Arial, sans-serif;
+    background-color: #25252D;
+    color: white;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #383640;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,
+.info h2 {
+    color: #BBA6F5;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #BBA6F5;
+}
+
+.welcome {
+    padding: 50px 8% 20px;
+}
+
+.welcome p {
+    color: #BBA6F5;
+    margin-bottom: 10px;
+}
+
+.welcome h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.welcome h3,
+.info p,
+.requirements {
+    color: #C2C0CB;
+}
+
+.opleiding-info {
+    padding: 20px 8%;
+}
+
+.info {
+    background-color: #383640;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.info h2 {
+    margin-bottom: 15px;
+}
+
+.info p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.requirements {
+    padding-left: 25px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #383640;
+    color: #C2C0CB;
+    text-align: center;
+    padding: 25px;
 }
