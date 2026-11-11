@@ -204,6 +204,10 @@ main {
     margin-top: 10px;
 }
 
+nav a:hover {
+    color: #BBA6F5;
+}
+
 /* Footer */
 footer {
     background-color: #383640;
