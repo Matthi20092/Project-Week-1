@@ -1,0 +1,195 @@
+/* ALGEMENE INSTELLINGEN */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #25252D;
+    color: white;
+}
+
+
+/* NAVIGATIEBALK */
+
+header {
+    background-color: #383640;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #BBA6F5;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #BBA6F5;
+}
+
+
+/* WELKOMSTGEDEELTE */
+
+.home-welcome {
+    padding: 45px 8% 50px;
+}
+
+.home-welcome p {
+    color: #BBA6F5;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.home-welcome h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.home-welcome h3 {
+    color: #C2C0CB;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+
+/* HOOFDINHOUD */
+
+main {
+    padding: 20px 8%;
+}
+
+
+/* INTRODUCTIE */
+
+.home-intro {
+    margin-bottom: 30px;
+}
+
+.home-intro h2 {
+    color: #BBA6F5;
+    margin-bottom: 12px;
+}
+
+.home-intro p {
+    color: #C2C0CB;
+    line-height: 1.6;
+    max-width: 750px;
+}
+
+
+/* NAVIGATIEKAARTEN */
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.home-card {
+    background-color: #383640;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.home-card h2 {
+    color: #BBA6F5;
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+
+.home-card p {
+    color: #C2C0CB;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.home-card a {
+    color: #BBA6F5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.home-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* OVER DE SCHOOL */
+
+.home-about {
+    background-color: #383640;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.home-about h2 {
+    color: #BBA6F5;
+    margin-bottom: 12px;
+}
+
+.home-about p {
+    color: #C2C0CB;
+    line-height: 1.6;
+}
+
+
+/* CONTACTGEDEELTE */
+
+.home-contact {
+    background-color: #383640;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.home-contact h2 {
+    color: #BBA6F5;
+    margin-bottom: 12px;
+}
+
+.home-contact p {
+    color: #C2C0CB;
+    margin-bottom: 15px;
+}
+
+.home-contact a {
+    color: #BBA6F5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #383640;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    color: #C2C0CB;
+}
