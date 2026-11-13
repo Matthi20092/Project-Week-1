@@ -117,7 +117,7 @@ main {
     background-color: #55515F;
     height: 12px;
     border-radius: 20px;
-    margin: 20px 0 30px;
+    margin: 20px 0px 30px;
 }
 
 .progress {
@@ -139,8 +139,7 @@ main {
 }
 
 /* Rooster met vier kolommen */
-.schedule-heading,
-.schedule-row {
+.schedule-heading, .schedule-row {
     display: flex;
     padding: 14px 0;
     border-bottom: 1px solid #55515F;
@@ -149,11 +148,9 @@ main {
 
 .schedule-heading {
     color: #BBA6F5;
-    font-weight: bold;
 }
 
-.schedule-heading strong,
-.schedule-row p {
+.schedule-heading strong, .schedule-row p {
     width: 25%;
 }
 
@@ -207,6 +204,10 @@ main {
     margin-top: 10px;
 }
 
+nav a:hover {
+    color: #BBA6F5;
+}
+
 /* Footer */
 footer {
     background-color: #383640;
@@ -217,7 +218,6 @@ footer {
 }
 
 /* Geen extra ruimte bij de teksten in het rooster en de cijfers */
-.grade p,
-.schedule-row p {
+.grade p, .schedule-row p {
     margin-bottom: 0;
 }

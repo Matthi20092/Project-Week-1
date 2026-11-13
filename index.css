@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #25252D;
@@ -17,7 +13,7 @@ body {
 }
 
 
-/* NAVIGATIEBALK */
+/* Navigatiebank */
 
 header {
     background-color: #383640;
@@ -46,7 +42,7 @@ nav a:hover {
 }
 
 
-/* WELKOMSTGEDEELTE */
+/* Welkomstgedeelte */
 
 .home-welcome {
     padding: 45px 8% 50px;
@@ -134,7 +130,7 @@ main {
 }
 
 
-/* OVER DE SCHOOL */
+/* Over de school    */
 
 .home-about {
     background-color: #383640;
@@ -154,7 +150,7 @@ main {
 }
 
 
-/* CONTACTGEDEELTE */
+/* Contactgedeelte */
 
 .home-contact {
     background-color: #383640;
@@ -184,7 +180,7 @@ main {
 }
 
 
-/* FOOTER */
+/* Footer */
 
 footer {
     background-color: #383640;
