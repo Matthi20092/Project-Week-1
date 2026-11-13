@@ -25,7 +25,7 @@ header {
 
 .logo {
     color: #BBA6F5;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -33,8 +33,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin-left: 25px;
-    font-size: 14px;
-    font-weight: bold;
+    transition: 0.3s;
 }
 
 nav a:hover {
