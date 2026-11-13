@@ -62,7 +62,6 @@ nav a:hover {
 .student-menu {
     position: absolute;
     top: 50px;
-    right: 0;
     width: 260px;
     padding: 16px;
     background-color: #383640;
