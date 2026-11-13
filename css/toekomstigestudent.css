@@ -69,6 +69,14 @@ nav a:hover {
     border-radius: 15px;
 }
 
+li {
+    color: #C2C0CB;
+}
+
+.onderdelen {
+    margin-left: 17px;
+}
+
 .info h2 {
     margin-bottom: 15px;
 }
